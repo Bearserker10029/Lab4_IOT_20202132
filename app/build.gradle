@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace 'com.example.lab4_iot_20202132'
+    namespace 'com.example.Pokedex'
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId "com.example.lab4_iot_20202132"
+        applicationId "com.example.Pokedex"
         minSdk 34
         targetSdk 37
         versionCode 1

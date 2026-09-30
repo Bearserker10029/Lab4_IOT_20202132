@@ -1,4 +1,4 @@
-package com.example.lab4_iot_20202132.network;
+package com.example.Pokedex.network;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

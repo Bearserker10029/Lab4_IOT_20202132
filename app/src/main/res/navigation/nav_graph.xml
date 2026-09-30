@@ -7,26 +7,21 @@
 
     <fragment
         android:id="@+id/tiposFragment"
-        android:name="com.example.lab4_iot_20202132.fragments.TiposFragment"
-        android:label="Pokemons"
+        android:name="com.example.Pokedex.fragments.TiposFragment"
+        android:label="Tipos de Pokémon"
         tools:layout="@layout/fragment_tipos">
-        <argument
-            android:name="category"
-            app:argType="string"
-            app:nullable="true"
-            android:defaultValue="@null" />
         <action
-            android:id="@+id/action_meals_to_recipe"
+            android:id="@+id/action_tipos_to_pokemon"
             app:destination="@id/pokemonFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/pokemonFragment"
-        android:name="com.example.lab4_iot_20202132.fragments.PokemonFragment"
-        android:label="Receta"
+        android:name="com.example.Pokedex.fragments.PokemonFragment"
+        android:label="Pokémon"
         tools:layout="@layout/fragment_pokemons">
         <argument
-            android:name="mealId"
+            android:name="tipo"
             app:argType="string"
             app:nullable="true"
             android:defaultValue="@null" />

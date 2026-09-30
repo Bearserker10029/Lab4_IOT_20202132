@@ -1,14 +1,12 @@
-package com.example.lab4_iot_20202132;
+package com.example.Pokedex;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
-import androidx.navigation.NavOptions;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.lab4_iot_20202132.databinding.ActivityMainBinding;
+import com.example.Pokedex.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     @Override

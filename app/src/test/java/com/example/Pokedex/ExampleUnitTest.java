@@ -1,4 +1,4 @@
-package com.example.lab4_iot_20202132;
+package com.example.Pokedex;
 
 import org.junit.Test;
 
