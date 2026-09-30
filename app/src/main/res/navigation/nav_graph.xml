@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tiposFragment">
+
+    <fragment
+        android:id="@+id/tiposFragment"
+        android:name="com.example.lab4_iot_20202132.fragments.TiposFragment"
+        android:label="Pokemons"
+        tools:layout="@layout/fragment_tipos">
+        <argument
+            android:name="category"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_meals_to_recipe"
+            app:destination="@id/pokemonFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pokemonFragment"
+        android:name="com.example.lab4_iot_20202132.fragments.PokemonFragment"
+        android:label="Receta"
+        tools:layout="@layout/fragment_pokemons">
+        <argument
+            android:name="mealId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+</navigation>
